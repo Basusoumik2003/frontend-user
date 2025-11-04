@@ -32,7 +32,7 @@ const Signup = ({ onClose, onSwitchToLogin }) => {
     setError({});
 
     try {
-      const response = await fetch("https://tn-backend-5.onrender.com/api/auth/register", {
+      const response = await fetch("https://tn-backend-95q7.onrender.com/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -61,7 +61,7 @@ if (!response.ok) {
 
     try {
 
-      const response = await fetch("https://tn-backend-5.onrender.com/api/auth/verify", {
+      const response = await fetch("https://tn-backend-95q7.onrender.com/api/auth/verify", {
 
   method: "POST",
   headers: { "Content-Type": "application/json" },
