@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/userNavbar.css";
 import WalletPopup from "../pages/wallet";
+import { GiWallet } from "react-icons/gi";
 import { 
   FaUser, 
   FaCog, 
@@ -196,7 +197,7 @@ const Navbar = ({ onAuthChange }) => {
                 setSidebarOpen(false);
               }}
             >
-              <MdAccountBalanceWallet
+              <GiWallet
                 className="sidebar-icon sidebar-gold"
                 style={{ fontSize: "1.8rem" }}
               />
@@ -243,7 +244,8 @@ const Navbar = ({ onAuthChange }) => {
       {/* Center section: wallet */}
       <div className="user-nav-links user-nav-links-center">
         <div className="user-nav-item wallet-nav-item" onClick={openWalletModal}>
-          <MdAccountBalanceWallet className="wallet-icon" />
+          <GiWallet className="wallet-icon"
+            style={{ color: '#f59e0b', fontSize: "2rem"}} />
           <span className="wallet-text">Wallet</span>
         </div>
       </div>
@@ -322,7 +324,7 @@ const Navbar = ({ onAuthChange }) => {
                     openWalletModal();
                   }}
                 >
-                  <FaWallet style={{ color: '#f59e0b' }} />
+                  < GiWallet style={{ color: '#f59e0b', fontSize: "2rem"}}  />
                   <span>My Wallet</span>
                 </div>
 
