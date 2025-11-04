@@ -153,7 +153,8 @@ const Navbar = ({ onAuthChange }) => {
               }
               onClick={() => setSidebarOpen(false)}
             >
-              <MdDashboard className="sidebar-icon sidebar-blue" />
+              <MdDashboard className="sidebar-icon sidebar-blue"
+                style={{ fontSize: "1.7rem" }}/>
               <span>Dashboard</span>
             </NavLink>
 
@@ -164,7 +165,8 @@ const Navbar = ({ onAuthChange }) => {
               }
               onClick={() => setSidebarOpen(false)}
             >
-              <MdUpload className="sidebar-icon sidebar-purple" />
+              <MdUpload className="sidebar-icon sidebar-purple" 
+                style={{ fontSize: "1.7rem" }}/>
               <span>Assets</span>
             </NavLink>
 
@@ -175,7 +177,8 @@ const Navbar = ({ onAuthChange }) => {
               }
               onClick={() => setSidebarOpen(false)}
             >
-              <MdEdit className="sidebar-icon sidebar-orange" />
+              <MdEdit className="sidebar-icon sidebar-orange" 
+                style={{ fontSize: "1.7rem" }}/>
               <span>Blog</span>
             </NavLink>
 
@@ -186,7 +189,8 @@ const Navbar = ({ onAuthChange }) => {
               }
               onClick={() => setSidebarOpen(false)}
             >
-              <MdHandshake className="sidebar-icon sidebar-teal" />
+              <MdHandshake className="sidebar-icon sidebar-teal" 
+                style={{ fontSize: "1.7rem" }}/>
               <span>Engage</span>
             </NavLink>
 
@@ -211,7 +215,8 @@ const Navbar = ({ onAuthChange }) => {
               }
               onClick={() => setSidebarOpen(false)}
             >
-              <FaInfoCircle className="sidebar-icon sidebar-purple" />
+              <FaInfoCircle className="sidebar-icon sidebar-purple" 
+                style={{ fontSize: "1.7rem" }}/>
               <span>About</span>
             </NavLink>
 
@@ -222,7 +227,8 @@ const Navbar = ({ onAuthChange }) => {
               }
               onClick={() => setSidebarOpen(false)}
             >
-              <FaEnvelope className="sidebar-icon sidebar-yellow" />
+              <FaEnvelope className="sidebar-icon sidebar-yellow" 
+                style={{ fontSize: "1.7rem" }}/>
               <span>Contact</span>
             </NavLink>
 
@@ -234,7 +240,8 @@ const Navbar = ({ onAuthChange }) => {
               }}
               style={{ cursor: "pointer" }}
             >
-              <FaSignOutAlt className="sidebar-icon sidebar-red" />
+              <FaSignOutAlt className="sidebar-icon sidebar-red" 
+                style={{ fontSize: "1.7rem" }}/>
               <span>Logout</span>
             </div>
           </div>
