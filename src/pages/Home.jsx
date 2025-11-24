@@ -9,7 +9,7 @@ const features = [
   {
     iconUrl: 'https://i.pinimg.com/474x/9e/8d/5e/9e8d5e07eed22f3364b0064a2bbb4dbf.jpg',
     title: 'Risk Management',
-    desc: Comprehensive risk assessment and mitigation strategies for your carbon portfolio investments.,
+    desc: `Comprehensive risk assessment and mitigation strategies for your carbon portfolio investments.`,
   },
   {
     iconUrl: 'https://img.favpng.com/3/25/18/chart-graph-of-a-function-infographic-information-png-favpng-Me2vt9rFvHtWhUjADqmVynUhq.jpg',
@@ -78,7 +78,7 @@ const Home = ({ isAuthenticated, user }) => {
                 <div className="home-feature-icon">
                   <img
                     src={feature.iconUrl}
-                    alt={${feature.title} icon}
+                    alt={`${feature.title} icon`}
                     className="home-feature-icon-img"
                   />
                 </div>
